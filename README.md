@@ -1,2 +1,2 @@
 # TDD_RedGreenRefactor
-enPiTでTDDのRedGreenRefactorをモブプロでしたときの履歴
+enPiTのモブプロでTDDのRedGreenRefactorを練習した記録
