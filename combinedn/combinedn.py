@@ -27,9 +27,7 @@ class CombinedNumber:
         """
         実装の方針：クイックソート
         説明：比較関数を適切に定義し、クイックソートした。
-        時間計算量: O(N*logN*logN)
-        ※通常のクイックソートは比較関数がO(1)で動作するためO(N*logN)で済むが、
-        今回実装した比較関数は、入力桁数に比例した時間すなわちO(logN)かかるため。
+        時間計算量: O(NlogN)
         """
         arr = [MyStr(a) for a in arr]
         arr.sort(reverse=True)

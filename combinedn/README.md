@@ -31,7 +31,7 @@ TODO
 
 ### 発展的な話題
 
-授業時間では`O(N!)`解しか得られなかったが、`O(NlogNlogN)`解が実装及びテストできたので報告する。
+授業時間では`O(N!)`解しか得られなかったが、`O(NlogN)`解が実装及びテストできたので報告する。
 詳しい詳細は、[combinedn.pyに実装してある`slow_answer`と`fast_answer`のdocstring](./combinedn.py)を参照してほしい。
 
 `fast_answer`の動作の正当性は100件のランダムテストケースを[generate.py](./generate.py)を用いて作成し、
