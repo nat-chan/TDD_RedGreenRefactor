@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 from typing import *
 from itertools import permutations
-from functools import total_ordering
 
 class MyStr(str):
     def __lt__(self, other):
